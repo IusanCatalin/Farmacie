@@ -1,6 +1,8 @@
 # Farmacie
 
 Comenzi sql:
+
+
 #creeare tabela - CREATE TABLE `farmacie`.`medicamente` ( `nume` VARCHAR(50) NOT NULL , `cantitate` INT NOT NULL , `analgezic` BOOLEAN NOT NULL , `anabolizant` BOOLEAN NOT NULL , `vitamina` BOOLEAN NOT NULL , UNIQUE `med_name` (`nume`)) ENGINE = InnoDB;
 #inserare in medicamente - INSERT INTO `medicamente` (`nume`, `cantitate`, `analgezic`, `anabolizant`, `vitamina`) VALUES ('Minina', '99', '1', '1', '1');
 
